@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAD70480-5367-1EC8-5B9B-2777AFB5DEEA" name="PRODUTO">
+<createdBy>DEV04</createdBy>
+<createdTime>2024-05-13 16:48:55 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>PROD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="62FC2CCE-2928-51DF-7100-DD988693C247">
+<createdBy>DEV04</createdBy>
+<createdTime>2024-05-13 16:53:24 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="E171BC5E-EB2E-486C-F387-CE300D0D7056">
+<createdBy>DEV04</createdBy>
+<createdTime>2024-05-13 16:53:24 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECO_COMPRA" id="46FFA45E-E1DE-0773-CB4C-0E67B173B82D">
+<createdBy>DEV04</createdBy>
+<createdTime>2024-05-13 16:53:24 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>25</dataTypePrecision>
+<dataTypeScale>16</dataTypeScale>
+<ownDataTypeParameters>,25,16</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECO_VENDA" id="84981587-A06D-2BB5-8E50-9BDB3CE69747">
+<createdBy>DEV04</createdBy>
+<createdTime>2024-05-13 16:53:24 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>25</dataTypePrecision>
+<dataTypeScale>16</dataTypeScale>
+<ownDataTypeParameters>,25,16</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A751399-28BA-C56D-FE17-81469ECBAA48" name="PRODUTO_PK">
+<createdBy>DEV04</createdBy>
+<createdTime>2024-05-13 16:53:24 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62FC2CCE-2928-51DF-7100-DD988693C247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
