@@ -11,4 +11,5 @@
 <connType>1</connType>
 <syncSelected>-1</syncSelected>
 </redirectConnectionStamp>
+<useConnectionUser>true</useConnectionUser>
 </relationalModel>

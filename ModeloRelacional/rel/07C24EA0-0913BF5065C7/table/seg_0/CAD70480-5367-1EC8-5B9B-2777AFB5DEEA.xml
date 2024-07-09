@@ -58,16 +58,15 @@
 <ownDataTypeParameters>,25,16</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="URI_IMAGE" id="72E990EA-AC1E-D3C6-FA50-FFB75AA45134">
+<Column name="DATA_CADASTRO" id="7F4B8217-77AE-BDBB-C9D7-F5F69F6F219A">
 <createdBy>DEV04</createdBy>
-<createdTime>2024-06-01 20:44:28 UTC</createdTime>
+<createdTime>2024-06-27 15:19:42 UTC</createdTime>
 <ownerDesignName>ModeloRelacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>250</dataTypeSize>
-<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
